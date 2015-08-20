@@ -1,0 +1,79 @@
+{
+  "name": "sw-precache",
+  "version": "2.0.0",
+  "description": "Generate service worker code that will precache specific resources.",
+  "author": {
+    "name": "Jeff Posnick",
+    "email": "jeffy@google.com",
+    "url": "https://jeffy.info"
+  },
+  "homepage": "https://github.com/googlechrome/sw-precache",
+  "main": "lib/sw-precache.js",
+  "keywords": [
+    "caching",
+    "offline",
+    "precaching",
+    "service-worker",
+    "serviceworker"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {
+    "del": "^1.2.0",
+    "express": "^4.12.4",
+    "gh-pages": "^0.3.1",
+    "grunt": "^0.4.5",
+    "gulp": "^3.9.0",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-mocha": "^2.1.1",
+    "gulp-util": "^3.0.5",
+    "jade": "^1.11.0",
+    "mocha": "^2.2.5",
+    "run-sequence": "^1.1.0"
+  },
+  "dependencies": {
+    "dom-urls": "^1.0.0",
+    "glob": "^5.0.10",
+    "lodash.defaults": "^3.1.1",
+    "lodash.template": "^3.6.1",
+    "pretty-bytes": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/googlechrome/sw-precache"
+  },
+  "bugs": {
+    "url": "https://github.com/googlechrome/sw-precache/issues"
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "lib",
+    "service-worker.tmpl"
+  ],
+  "gitHead": "36635f147c821cf0ea2cacaeec8f1f8b6c5b2d83",
+  "_id": "sw-precache@2.0.0",
+  "_shasum": "8c2e587f3c19676b442ae2c8d95c0c4914b03838",
+  "_from": "sw-precache@*",
+  "_npmVersion": "2.7.3",
+  "_nodeVersion": "0.12.1",
+  "_npmUser": {
+    "name": "jeffposnick",
+    "email": "jeffy@google.com"
+  },
+  "maintainers": [
+    {
+      "name": "jeffposnick",
+      "email": "jeffy@google.com"
+    }
+  ],
+  "dist": {
+    "shasum": "8c2e587f3c19676b442ae2c8d95c0c4914b03838",
+    "tarball": "http://registry.npmjs.org/sw-precache/-/sw-precache-2.0.0.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/sw-precache/-/sw-precache-2.0.0.tgz"
+}
